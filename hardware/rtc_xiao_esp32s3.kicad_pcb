@@ -4110,6 +4110,25 @@
 		(layer "Edge.Cuts")
 		(uuid "c8564518-fb31-44e3-bd09-9ffac4829823")
 	)
+	(gr_text_box "RTC for ESP32S3XIAO\nAuthor:\nGrzegorz Potocki"
+		(start 119.025 97.325)
+		(end 130.475 103.175)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.SilkS")
+		(uuid "37598909-830f-4a80-a012-e3a89f05ce65")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
@@ -4275,14 +4294,6 @@
 		(uuid "2f1ecf16-8cb5-4b0d-8a1e-e9d10bb06f75")
 	)
 	(segment
-		(start 128.6 105.6)
-		(end 129.45 104.75)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "37f83969-7636-4e0e-baa3-6fabacdc725f")
-	)
-	(segment
 		(start 120 110.8375)
 		(end 120 110.2)
 		(width 0.4)
@@ -4299,12 +4310,28 @@
 		(uuid "4e4ab012-e76c-4d55-ad3e-05d192194138")
 	)
 	(segment
-		(start 129.45 104.75)
+		(start 121.1 105.6)
+		(end 128.15 105.6)
+		(width 0.4)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "4f750b35-c270-4bbc-a60c-f85aeea1509d")
+	)
+	(segment
+		(start 128.15 105.6)
+		(end 129.45 104.3)
+		(width 0.4)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "59b8c40e-7f2f-4654-91d3-b7bf0ab13a5f")
+	)
+	(segment
+		(start 129.45 104.3)
 		(end 129.45 100.5)
 		(width 0.4)
 		(layer "B.Cu")
 		(net 2)
-		(uuid "98795fbd-098d-4560-bb7a-13b75fce26cc")
+		(uuid "8cd7dec7-71b6-4b83-8a5d-ed69da1b6f3a")
 	)
 	(segment
 		(start 120 110.2)
@@ -4313,14 +4340,6 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "9d2a393c-2f2e-40dd-ab02-3e2706532eb3")
-	)
-	(segment
-		(start 121.1 105.6)
-		(end 128.6 105.6)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "ce286e90-b014-4bbf-99bf-51bcde9ee732")
 	)
 	(segment
 		(start 119.2 109.4)
