@@ -1296,9 +1296,9 @@
 		)
 		(uuid "4435eb5f-76e7-4e1d-931e-e8b0ca9545bd")
 	)
-	(text "RTS for XIAO"
+	(text "RTS XIAO"
 		(exclude_from_sim no)
-		(at 72.39 24.13 0)
+		(at 55.88 24.13 0)
 		(effects
 			(font
 				(size 12 12)
@@ -3075,7 +3075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:RV3028C832768kHz1PPMTAQC"
+		(property "Footprint" "Xiao RTC:RV3028C832768kHz1PPMTAQC"
 			(at 208.28 120.65 0)
 			(effects
 				(font
