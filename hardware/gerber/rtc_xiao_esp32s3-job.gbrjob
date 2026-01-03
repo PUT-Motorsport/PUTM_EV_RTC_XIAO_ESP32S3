@@ -1,0 +1,178 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.7-9.0.7~ubuntu24.04.1"
+    },
+    "CreationDate": "2026-01-03T22:14:34+01:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "rtc_xiao_esp32s3",
+      "GUID": "7274635f-7869-4616-9f5f-657370333273",
+      "Revision": "1.0"
+    },
+    "Size": {
+      "X": 17.6,
+      "Y": 21.1
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.565,
+    "Finish": "HAL lead-free"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.09,
+      "PadToTrack": 0.09,
+      "TrackToTrack": 0.09,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.09,
+      "PadToTrack": 0.09,
+      "TrackToTrack": 0.09,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "rtc_xiao_esp32s3-SIG1.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "rtc_xiao_esp32s3-GND1.g1",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "rtc_xiao_esp32s3-GND2.g2",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "rtc_xiao_esp32s3-SIG2.gbl",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "rtc_xiao_esp32s3-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "rtc_xiao_esp32s3-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "rtc_xiao_esp32s3-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "rtc_xiao_esp32s3-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "rtc_xiao_esp32s3-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "rtc_xiao_esp32s3-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "rtc_xiao_esp32s3-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "R7G58B97",
+      "Thickness": 0.01,
+      "Material": "Liquid Ink",
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "SIG1"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R80G85B67",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "SIG1/GND1",
+      "Notes": "Type: dielectric layer 1 (from SIG1 to GND1)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0175,
+      "Name": "GND1"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R80G85B67",
+      "Thickness": 1.24,
+      "Material": "FR4",
+      "Name": "GND1/GND2",
+      "Notes": "Type: dielectric layer 2 (from GND1 to GND2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0175,
+      "Name": "GND2"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R80G85B67",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "GND2/SIG2",
+      "Notes": "Type: dielectric layer 3 (from GND2 to SIG2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "SIG2"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "R7G58B97",
+      "Thickness": 0.01,
+      "Material": "Liquid Ink",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
