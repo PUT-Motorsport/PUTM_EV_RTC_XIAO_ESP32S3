@@ -1322,6 +1322,48 @@
 		)
 		(uuid "a3ec66f4-ca7f-466e-9cb3-7c275b5f786c")
 	)
+	(text "*1"
+		(exclude_from_sim no)
+		(at 226.06 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a947eb30-67b4-4215-bfd1-824172682973")
+	)
+	(text "2* battery size is SR66"
+		(exclude_from_sim no)
+		(at 203.2 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7459e02-0cee-44cd-837e-4c4341c70b74")
+	)
+	(text "*2\n"
+		(exclude_from_sim no)
+		(at 226.06 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "deae5cb8-94ff-4b5f-a10d-afa3104c0dc3")
+	)
+	(text "1* used battery delivers 1.55V \nso according to the documentation \nspeed rate for I2C should be 100kHz\nwhile using the backup voltage source "
+		(exclude_from_sim no)
+		(at 203.2 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1e98fe6-44f3-4f30-b78a-2edf45ac29f0")
+	)
 	(junction
 		(at 203.2 85.09)
 		(diameter 0)
