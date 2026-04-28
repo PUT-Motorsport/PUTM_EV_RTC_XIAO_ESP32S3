@@ -133,7 +133,7 @@
 			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
@@ -155,7 +155,7 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk yes)
+			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
@@ -163,7 +163,7 @@
 			(outputdirectory "gerber/")
 		)
 	)
-	(property "REVISION" "1.1")
+	(property "REVISION" "1.1.2")
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6b06b21a-9452-45ce-8c36-c9a19bb0319d")
@@ -3626,7 +3626,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "17.78 mm"
+		(gr_text "17,78 mm"
 			(at 124.89 121 0)
 			(layer "Dwgs.User")
 			(uuid "af7beca2-53ce-40e5-8719-4fde04dca040")
